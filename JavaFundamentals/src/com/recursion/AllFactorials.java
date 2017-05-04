@@ -32,7 +32,7 @@ public class AllFactorials {
 
     public static void main(String args[]) {
         AllFactorials factorial = new AllFactorials();
-        int number = 4;
+        int number = 5;
         int[] factorials = factorial.allFactorials(number);
         
         for (int i = 0; i < factorials.length; i++) {

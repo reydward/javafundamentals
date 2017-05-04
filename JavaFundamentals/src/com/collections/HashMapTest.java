@@ -27,7 +27,10 @@ public class HashMapTest {
         hm.put(104, s);
         hm.put(104, s);
         hm.put(null, null);
-        hm.put(null, "sds");
+        hm.put(null, "a");
+        hm.put(null, "c");
+        hm.put(null, "b");
+        
         for (Map.Entry m : hm.entrySet()) {
             System.out.println(m.getKey() + " " + m.getValue());
         }
